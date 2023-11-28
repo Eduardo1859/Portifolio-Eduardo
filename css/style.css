@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap');
+*{
+    font-family: 'Exo 2';
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+
+}
+header,nav, ul ,li{
+    width: 95vw;
+    
+    display: inline-flex;
+    margin-left: 10px;
+    padding: 5px;
+}
+nav ul{
+    width: 710px;
+    height: 37px;
+    margin-left: 900px;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    height: 37px;
+    list-style: none;
+}
+#apresentacao{
+   display: inline-flex;
+   padding: 30px;
+}
+.text-ap{
+    width: 85vw;
+    height: 350px;
+    padding: 20px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.911);
+    color: #fff;
+    border-radius: 7px;
+}
+div.text-ap > a > img{
+    width:50px;
+    margin: 10px;
+    padding: 10px;
+}
+.img-ap{
+    margin-left: -200px;
+}
+#sobre-min{
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+}
+#skils{
+    text-align: center;
+    margin: 10px;
+}
+#skils img {
+    width: 800px;
+}
+#portifolio{
+    width: 80vw;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+ 
+}
+#portifolio h1{
+    text-align: center;
+
+}
+ .col-pt{
+     width: 1000px;
+    display: inline-flex;
+    
+}
+.card {
+    width: 400px;
+    height:;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom:10px ;
+    padding: 10px;
+    
+}
+.card > img{
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.card > a {
+    color: white;
+    text-decoration: none;
+}
+#contato{
+    margin: 50px;
+    padding: 15PX;
+}
+#contato h1{
+text-align: center;
+}
+#contato p {
+    font-weight: 700;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+}

@@ -1,43 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap');
+
+
 *{
     font-family: 'Exo 2';
     margin: 0px;
     padding: 0px;
+  scroll-behavior: smooth;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 a{
     text-decoration: none;
+    color: #fff;
 
 }
+h2{
+    padding: 10px;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    color: #fff;
+}
+
 header,nav, ul ,li{
-    width: 95vw;
-    
+    width: 100vw;
     display: inline-flex;
     margin-left: 10px;
-    padding: 5px;
+    padding-top: 2px;
+   
+
 }
 nav ul{
     width: 710px;
-    height: 37px;
+    /* height:px; */
     margin-left: 900px;
     align-items: center;
     justify-content: center;
+  
+
 }
 nav ul li {
     height: 37px;
     list-style: none;
+    color: #ffff;
 }
 #apresentacao{
    display: inline-flex;
-   padding: 30px;
+   height:100vh;
+   padding: 50px;
+   margin: 100px;
+   align-items: center;
 }
 .text-ap{
-    width: 85vw;
-    height: 350px;
-    padding: 20px;
+    width: 60vw;
+    height: 700px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.text-ap>h1{
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
 }
 button{
-    width: 250px;
+    width: 350px;
     height: 50px;
+    margin-top:20px ;
     background-color: rgba(0, 0, 255, 0.911);
     color: #fff;
     border-radius: 7px;
@@ -48,72 +82,77 @@ div.text-ap > a > img{
     padding: 10px;
 }
 .img-ap{
-    margin-left: -200px;
+    /* width: ; */
+ height: 700px;
+}
+#sb-s{
+    display: inline-flex;
 }
 #sobre-min{
-    height: 250px;
-    padding: 10px;
+    height: 100vh;
+    padding: 50px;
     text-align: center;
 }
+#sobre-min > h1{
+    margin: 10px;
+    padding-top:300px;
+
+}
+#sobre-min > p{
+    margin: 20px;
+}
 #skils{
+    padding: 40px;
     text-align: center;
     margin: 10px;
 }
 #skils img {
-    width: 800px;
+    padding-top: 300px;
+    width: 500px;
 }
 #portifolio{
-    width: 80vw;
-    margin: 10px;
+    width: 70vw;
+    height: 3000px;
+    margin-left: 250px;   
     align-items: center;
     text-align: center;
- 
+    justify-content: center;
+   
 }
 #portifolio h1{
+    margin: 20px;
     text-align: center;
 
 }
- .col-pt{
-     width: 1000px;
-    display: inline-flex;
-    
-}
-.card {
-    width: 400px;
-    height:;
-    text-align: center;
+
+.card-port {
+   display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
-    color: #fff;
     border-radius: 10px;
     margin-left: 10px;
     margin-bottom:10px ;
     padding: 10px;
     
 }
-.card > img{
-    border-radius: 10px;
-    justify-content: center;
-    text-align: center;
+
+footer{
+    width: 100vw;
+    height: 130px;
+    text-align:;
+    color: #fff;
+    background-color: black;
 }
-.card > a {
-    color: white;
-    text-decoration: none;
-}
-#contato{
-    margin: 50px;
-    padding: 15PX;
-}
+
+
 #contato h1{
 text-align: center;
 }
 #contato p {
     font-weight: 700;
     margin: 10px;
+
 }
-footer{
+.copy{
     text-align: center;
-    color: #fff;
-    background-color: blue;
 }

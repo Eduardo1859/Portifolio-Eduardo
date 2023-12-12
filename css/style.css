@@ -90,6 +90,7 @@ div.text-ap > a > img{
     display: inline-flex;
 }
 #sobre-min{
+    width: 100vw;
     height: 100vh;
     width: 1000px;
     padding: 50px;

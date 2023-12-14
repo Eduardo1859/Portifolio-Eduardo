@@ -24,7 +24,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Preview
 
-![Portifólio](https://github.com/f5-nascimento/Sistok/assets/28812188/0eeb7054-37d7-40bd-abb3-002fbfeb3d88)
+![Portifólio](https://github.com/Eduardo1859/Portifolio-Eduardo/assets/140715388/bb6e6e95-e7f5-41fe-b68d-4e4a79f4d4a0)
 
 
 ## Deploy
